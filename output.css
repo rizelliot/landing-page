@@ -13,6 +13,18 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  filter: brightness(1.2);
+  filter: blur(0.3rem);
+  z-index: -2;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -38,7 +50,6 @@ body {
 }
 
 .hero {
-  background-color: #f5ecd3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,6 +58,9 @@ body {
 
 .hero-wrapper {
   display: flex;
+  padding: 40px;
+  border-radius: 100px;
+  background-color: hsla(0deg, 18%, 3%, 0.623);
   margin-top: 50px;
   gap: 200px;
   align-items: center;
@@ -55,13 +69,14 @@ body {
 }
 
 .hero-text {
+  color: white;
   width: 500px;
 }
 
 .hero img {
   height: auto;
   width: 600px;
-  border: 10px solid #db5808;
+  border: 10px solid hsla(23deg, 93%, 45%, 0.486);
 }
 
 .hero h1 {
@@ -76,25 +91,31 @@ body {
 }
 
 .hero button {
-  color: #db5808 !important;
+  color: white !important;
+  background-color: hsla(23deg, 93%, 45%, 0.568) !important;
   text-transform: uppercase;
 }
 
 .information {
+  color: white;
   min-height: 55vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: hsla(0deg, 18%, 3%, 0.623);
 }
 
 .information img {
-  border: 10px solid #db5808;
+  border: 10px solid hsla(23deg, 93%, 45%, 0.486);
   border-radius: 20px;
   width: 180px;
 }
 
 .information h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
   text-align: center;
   margin-bottom: 100px;
   font-weight: 700;
@@ -153,7 +174,8 @@ body {
 }
 
 .call-content {
-  background-color: #cb9972;
+  color: white;
+  background-color: hsla(0deg, 18%, 3%, 0.623);
   border-radius: 40px;
   padding: 60px;
   display: flex;
@@ -161,10 +183,17 @@ body {
   align-items: center;
   gap: 100px;
 }
-
 .call-content button {
-  color: #cb9972 !important;
+  color: white !important;
+  background-color: hsla(23deg, 93%, 45%, 0.568) !important;
   text-transform: uppercase;
+}
+.call-content h3 {
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+.call-content p {
+  opacity: 80%;
 }
 
 .footer {
