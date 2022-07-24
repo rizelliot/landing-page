@@ -145,4 +145,34 @@ body {
   font-weight: 700;
 }
 
+.call-action {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-content {
+  background-color: #cb9972;
+  border-radius: 40px;
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+
+.call-content button {
+  color: #cb9972 !important;
+  text-transform: uppercase;
+}
+
+.footer {
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ecd3;
+}
+
 /*# sourceMappingURL=output.css.map */

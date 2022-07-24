@@ -183,3 +183,40 @@ $bg: rgb(255, 255, 255);
         font-weight: 700;
     }
 }
+
+
+//// CALL TO ACTION //// 
+
+.call-action {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-content {
+    background-color: $secondary-color;
+    border-radius: 40px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.call-content {
+    button {
+        color: $secondary-color !important;
+        text-transform: uppercase;
+    }
+}
+//// FOOTER ////
+
+.footer {
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+}
