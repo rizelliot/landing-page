@@ -9,4 +9,16 @@ body {
   min-height: 100vh;
 }
 
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5ecd3;
+}
+
+.header img {
+  width: 100px;
+}
+
 /*# sourceMappingURL=output.css.map */

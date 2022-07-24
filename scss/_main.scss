@@ -1,0 +1,29 @@
+@use 'resets';
+
+$primary-color: #f5ecd3;
+$secondary-color: #cb9972;
+$bg: rgb(255, 255, 255);
+
+
+
+
+//// HEADER ////
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $primary-color;
+
+}
+
+.header {
+    img {
+        width: 100px;
+    }
+}
+
+
+ 
+
