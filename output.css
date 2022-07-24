@@ -37,4 +37,87 @@ body {
   color: #db5808;
 }
 
+.hero {
+  background-color: #f5ecd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.hero-wrapper {
+  display: flex;
+  margin-top: 50px;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.hero-text {
+  width: 500px;
+}
+
+.hero img {
+  height: auto;
+  width: 600px;
+  border: 10px solid #db5808;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+}
+
+.hero p {
+  opacity: 80%;
+  font-weight: 400;
+}
+
+.hero button {
+  color: #db5808 !important;
+  text-transform: uppercase;
+}
+
+.information {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.information img {
+  border: 10px solid #db5808;
+  border-radius: 20px;
+  width: 180px;
+}
+
+.information h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+.information-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.card p {
+  text-align: center;
+  max-width: 240px;
+}
+
 /*# sourceMappingURL=output.css.map */
