@@ -120,4 +120,29 @@ body {
   max-width: 240px;
 }
 
+.quote {
+  display: flex;
+  background-color: #f5ecd3;
+  min-height: 55vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-content {
+  width: 800px;
+}
+
+.quote-content h1 {
+  font-weight: 400;
+}
+
+.quote-author {
+  text-align: end;
+}
+
+.quote-author h2 {
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=output.css.map */
