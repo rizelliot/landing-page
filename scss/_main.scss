@@ -2,10 +2,13 @@
 
 $primary-color: #f5ecd3;
 $secondary-color: #cb9972;
+$text-color: #db5808;
 $bg: rgb(255, 255, 255);
 
 
-
+* {
+    font-family: 'Roboto Mono', monospace;
+}
 
 //// HEADER ////
 
@@ -15,6 +18,8 @@ $bg: rgb(255, 255, 255);
     justify-content: space-around;
     align-items: center;
     background-color: $primary-color;
+    font-weight: 600;
+
 
 }
 
@@ -24,6 +29,24 @@ $bg: rgb(255, 255, 255);
     }
 }
 
+.header {
+    ul {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+    }
+}
 
+.header {
+    a {
+        text-decoration: none;
+        color: #db5808
+
+    }
+}
  
+//// HERO //// 
+
+
+
 
