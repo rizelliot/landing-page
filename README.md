@@ -3,7 +3,11 @@
 Images used:
 
 
-Logo - generated with https://www.freelogodesign.org
+Logo:
+
+
+generated with https://www.freelogodesign.org
+
 
 Card images:
 
