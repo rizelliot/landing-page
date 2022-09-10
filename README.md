@@ -6,7 +6,7 @@ Images used:
 Logo:
 
 
-generated with https://www.freelogodesign.org
+Generated with https://www.freelogodesign.org
 
 
 Card images:
